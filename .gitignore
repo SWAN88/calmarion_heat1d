@@ -1,0 +1,10 @@
+# Build artifacts
+*.o
+*.mod
+src/heat1d
+
+# Output files
+src/output/
+
+# macOS
+.DS_Store

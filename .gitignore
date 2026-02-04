@@ -6,5 +6,17 @@ src/heat1d
 # Output files
 src/output/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
 # macOS
 .DS_Store

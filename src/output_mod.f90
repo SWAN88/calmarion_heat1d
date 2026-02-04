@@ -33,9 +33,9 @@ contains
     write(unit_num, '(A,F12.6)') "# Time: ", t
     write(unit_num, '(A)') "x,u_numerical,u_analytical,error"
     
-    ! Write data
+    ! Write data (ES23.16 for full double precision)
     do i = 1, nx
-      write(unit_num, '(F12.8,A,F12.8,A,F12.8,A,ES14.6)') &
+      write(unit_num, '(ES23.16,A,ES23.16,A,ES23.16,A,ES23.16)') &
             x(i), ",", u(i), ",", u_exact(i), ",", u(i) - u_exact(i)
     end do
     
